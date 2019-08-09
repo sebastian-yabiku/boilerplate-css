@@ -1,0 +1,10 @@
+.input {
+    border: 1px solid grey;
+    padding: 6px;
+    transition: all 1s ease;
+    
+    &:focus {
+        box-shadow: 0 0 10px grey;
+        outline: none;
+    }
+}

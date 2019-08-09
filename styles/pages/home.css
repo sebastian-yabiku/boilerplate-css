@@ -1,0 +1,87 @@
+.button {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid grey;
+  color: grey;
+  padding: 5px 10px;
+}
+
+.button.button--primary {
+  color: green;
+  border-color: green;
+}
+
+.button.button--secondary {
+  color: violet;
+  border-color: violet;
+}
+
+.input {
+  border: 1px solid grey;
+  padding: 6px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.input:focus {
+  -webkit-box-shadow: 0 0 10px grey;
+          box-shadow: 0 0 10px grey;
+  outline: none;
+}
+
+.search {
+  padding: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid grey;
+}
+
+.search .input {
+  width: 200px;
+}
+
+.nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 10px;
+}
+
+.nav a {
+  color: grey;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.header a {
+  color: white;
+}
+
+.header .button.button--primary {
+  color: white;
+}
+
+.home .header {
+  background: green;
+}
+/*# sourceMappingURL=home.css.map */

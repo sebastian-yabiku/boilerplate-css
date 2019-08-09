@@ -1,0 +1,15 @@
+.header {
+    background: red;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 10px;
+
+    a {
+        color: white;
+    }
+
+    .button.button--primary {
+        color: white;
+    }
+}
